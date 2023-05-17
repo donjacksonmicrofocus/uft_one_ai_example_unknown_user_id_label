@@ -70,7 +70,7 @@ AIUtil.SetContext AppContext
 'BP:  Login
 '===========================================================================================
 AIUtil("profile").Click
-AIUtil("input", fnGetTextBlockFromTextBlockAnchor ("Password", "down")).SetText "aidemo"
+AIUtil("field", fnGetTextBlockFromTextBlockAnchor ("Password", "down")).SetText "aidemo"
 
 '===========================================================================================
 'BP:  Logout
